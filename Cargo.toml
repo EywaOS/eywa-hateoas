@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-axum = { workspace = true }
-serde = { workspace = true }
-utoipa = { workspace = true }
-thiserror = { workspace = true }
-eywa-pagination = { path = "../eywa-pagination" }
-eywa-errors = { workspace = true }
+axum = "0.8.8"
+serde = "1.0.228"
+utoipa = "5.4.0"
+thiserror = "2.0.17"
+eywa-pagination = { git = "https://github.com/EywaOS/eywa-pagination" }
+eywa-errors = { git = "https://github.com/EywaOS/eywa-errors" }
